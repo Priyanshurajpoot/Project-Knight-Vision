@@ -1,0 +1,39 @@
+# -------------------------
+# Python cache & venv files
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.log
+*.sqlite3
+.env
+.venv/
+venv/
+ENV/
+
+# -------------------------
+# System / Editor files
+# -------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# -------------------------
+# Stockfish
+# -------------------------
+# Ignore full Stockfish source folder (too heavy)
+stockfish/
+# But keep stockfish.exe (already set up by you)
+!stockfish\stockfish-windows-x86-64-avx2.exe
+
+# -------------------------
+# Build / dist outputs
+# -------------------------
+build/
+dist/
+*.spec
